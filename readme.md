@@ -46,4 +46,5 @@ This section outlines the design and functionality of the header/navigation comp
 
 ### 5. **Responsive Hamburger Menu**
 - A hamburger menu appears on smaller screens (mobile/tablet) for better usability.
---
+  
+---
