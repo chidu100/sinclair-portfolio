@@ -41,7 +41,7 @@ This section outlines the design and functionality of the header/navigation comp
 - Includes a prominent button to download my resume (`resume.pdf`).
 
 ### 4. **Dark/Light Mode Toggle**
-- Users can switch between light and dark themes for improved accessibility.
+- Anybody can switch between light and dark themes for improved accessibility.
 - The theme preference is saved in `localStorage` to persist across sessions.
 
 ### 5. **Responsive Hamburger Menu**
