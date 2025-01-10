@@ -29,3 +29,9 @@ hamBurger.addEventListener("click", () => {
   hamBurger.classList.toggle("active");
   navBar.classList.toggle("active");
 });
+
+document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
+  hamBurger.classList.remove("active");
+  navBar.classList.remove("active");
+}))
+
