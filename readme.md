@@ -66,3 +66,26 @@ The **Hero Section** serves as the introduction to my portfolio, featuring a bri
 
 - **Box Shadow**: A subtle box shadow is applied to the hero content, which helps it stand out against both dark and light backgrounds. This ensures a polished look regardless of the website’s theme.
 
+- **YouTube Video Lightbox**: I have integrated a lightbox feature that allows visitors to watch a YouTube video directly within the page. This video features me talking about myself and my journey. The lightbox is triggered by clicking a video thumbnail, and it opens up in a pop-up window, providing an immersive viewing experience.
+
+---
+
+## iii. About Me
+
+The About Me section introduces who I am and what I do, sharing both my professional background and personal interests.
+
+- **Introduction**: In this section, I provide a brief overview of myself. I highlight my passion for technology, problem-solving, and innovation, with a versatile approach to challenges. I mention my diverse expertise, which spans software engineering, customer and technical support, and business growth. This section is designed to show that I treat each project as an opportunity for personal and professional development, where creativity meets purpose.
+  
+- **Professional Approach**: I explain how I blend technical expertise with a deep understanding of customer needs. My goal is to deliver impactful results in various areas, including developing innovative solutions, helping businesses grow, and ensuring excellent client support. I emphasize my dedication and adaptability when approaching every challenge.
+  
+- **Technical Skill Set**: 
+  To provide a clearer picture of my capabilities, I list my key technical skills:
+  - ***Programming & Web Development***: HTML, CSS, SASS, JavaScript, React, Bootstrap
+  - ***eCommerce & CMS***: Shopify, WordPress, Liquid
+  - ***Version Control***: GitHub
+  - ***Customer & Technical Support***: Ensuring seamless operations
+
+- **Personal Interests**: I share my personal side by mentioning that I'm a football enthusiast, particularly an avid FC Barcelona fan. Additionally, I mention my hobbies such as gaming, solving puzzles, and staying engaged with tech trends through blogs and forums. These activities fuel my creativity and focus.
+
+- **Inspiration**: To close the section, I reflect on the dynamic nature of technology and how it inspires me. I express my excitement about the opportunities technology offers for personal growth, evolution, and the ability to make a meaningful impact.
+
