@@ -8,9 +8,9 @@ This is the README for my personal portfolio website, outlining the structure an
 
 ## 3. About Me
 
-## 4. Skills
+## 4. Projects
 
-## 5. Projects
+## 5. Skills
 
 ## 7. Contact Section
 
