@@ -72,3 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+
+// for year
+document.getElementById("currentYear").textContent = new Date().getFullYear();
