@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-
+// Project settings
 document.addEventListener("DOMContentLoaded", () => {
   const filterButtons = document.querySelectorAll(".filter-btn");
   const projectItems = document.querySelectorAll(".project-item");

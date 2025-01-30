@@ -12,11 +12,11 @@ This is the README for my personal portfolio website, outlining the structure an
 
 ## 5. Skills
 
-## 7. Contact Section
+## 6. Contact Section
 
-## 8. Resume Section/Download Button
+## 7. Resume Section/Download Button
 
-## 9. Footer
+## 8. Footer
 
 # i. Header/Navigation
 This section outlines the design and functionality of the header/navigation component of my portfolio website.
@@ -89,3 +89,50 @@ The About Me section introduces who I am and what I do, sharing both my professi
 
 - **Inspiration**: To close the section, I reflect on the dynamic nature of technology and how it inspires me. I express my excitement about the opportunities technology offers for personal growth, evolution, and the ability to make a meaningful impact.
 
+---
+
+## iv. Projects
+
+The Projects section showcases some of my work in web development, UI/UX design, and mockups. It features an interactive filtering system, allowing users to browse projects based on categories.
+
+ ### Features
+- ***Dynamic Filtering System***: Users can filter projects by category (Websites, Design, Mockups) or view all at once.
+- ***Responsive Layout***: The section adapts to different screen sizes, ensuring an optimal viewing experience.
+- ***Interactive UI Enhancements***: Smooth transitions, hover effects, and interactive elements improve user engagement.
+- ***Project Showcase***: Each project card displays an image, description, and direct links to the Live Demo and GitHub Repository.
+
+---
+
+## v. Skills
+
+The Skills Section is a dedicated part of the portfolio that showcases the technologies and tools the developer is proficient in. It features a structured layout with icons, skill names, and progress bars indicating the level of expertise for each skill.
+
+### Features
+- ***Responsive Layout***: The section is designed to be fully responsive, ensuring it adapts well to different screen sizes.
+
+- ***Themed Background***: Uses a gradient background that changes between light and dark themes.
+
+- ***Hover Effects***: Each skill card has a subtle hover effect that lifts it slightly for a more interactive feel.
+
+- ***Animated Skill Bars***: Skill bars visually represent proficiency in each technology with different colors.
+
+## vi. Contact Section
+
+The Contact Section is a responsive and visually appealing section that allows users to get in touch. It includes a call-to-action (CTA) area highlighting the value proposition and a contact form for easy communication. The form is integrated with EmailJS for seamless email submissions.
+
+### Features
+- ***Responsive Design***: Fully adaptable across different screen sizes.
+- ***Dark & Light Mode Support***: Uses CSS variables and data-theme for theme switching.
+- ***Gradient Backgrounds***: Smooth gradient transitions for a modern look.
+- ***Call-to-Action (CTA)***: Engaging text with clear steps to encourage user interaction.
+- ***EmailJS Integration***: Handles form submissions without a backend.
+- ***Success & Error Messages***: Provides immediate feedback on form submission status.
+- ***Smooth Animations & Transitions***: Enhances user experience with hover and focus effects.
+
+## vii. Resume Section/Download Button
+
+This section contains three buttons for users to view or download the resume:
+
+- ***Main Button***: This button allows users to view or download the resume directly from the page.
+- ***Extra Button***: This button is displayed in the navbar on larger screens, providing an alternative way to access the resume.
+- ***Hidden Button (Mobile View)***: This button is hidden by default using CSS, but it becomes visible in the mobile view navbar to ensure a user-friendly experience for mobile users.

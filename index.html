@@ -14,7 +14,7 @@
 
     <script type="text/javascript">
         (function () {
-            emailjs.init('9SITR_HpncN9myj5G'); // Your EmailJS user ID
+            emailjs.init('9SITR_HpncN9myj5G'); 
         })();
     </script>
 
@@ -33,12 +33,12 @@
                 <li><a href="#projects" class="nav-link">Projects</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
-                <li><a href="resume.pdf" class="btn not cv nav-link">Download Resume</a></li>
+                <li><a href="resume/Sinclair's-resume.pdf" class="btn not cv nav-link">Download Resume</a></li>
                 <li><button id="theme-toggle-btn" class="theme-toggle not nav-link">🌞</button></li>
             </ul>
         </nav>
         <div class="actions">
-            <a href="resume.pdf" class="btn">Download Resume</a>
+            <a href="resume/Sinclair's-resume.pdf" class="btn">Download Resume</a>
             <button id="theme-toggle-btn" class="theme-toggle">🌞</button>
         </div>
         <div class="hamburger">
@@ -69,15 +69,15 @@
                         solutions
                         that adapt to changing market demands and elevate performance.</p>
                     <div class="discover">
-                        <a href="resume.pdf" class="btn cv">Download Resume</a>
+                        <a href="resume/Sinclair's-resume.pdf" class="btn cv">Download Resume</a>
                         <div class="social-icons">
                             <a href="https://linkedin.com/in/sinclair-anusiem" target="_blank" class="icon-linkedin">
                                 <i class="bi bi-linkedin"></i>
                             </a>
-                            <a href="https://instagram.com/sinclair_anusiem" target="_blank" class="icon-instagram">
+                            <a href="https://instagram.com/chidu_hundreds" target="_blank" class="icon-instagram">
                                 <i class="bi bi-instagram"></i>
                             </a>
-                            <a href="https://twitter.com/sinclair_anusiem" target="_blank" class="icon-twitter">
+                            <a href="https://x.com/chidu_hundred" target="_blank" class="icon-twitter">
                                 <i class="bi bi-twitter-x"></i>
                             </a>
                         </div>
@@ -251,6 +251,7 @@
             </div>
         </section>
 
+        <!-- Skills -->
         <section class="skills" id="skills">
             <div class="skills-container">
                 <h2 class="section-title">My Skills</h2>
@@ -404,6 +405,7 @@
             </div>
         </section>
 
+        <!-- contact -->
         <section id="contact" class="get-started">
             <div class="content-wrapper">
                 <div class="text-center">
@@ -454,20 +456,22 @@
         </section>
     </main>
 
+    <!-- Footer -->
+
     <footer class="footer">
         <div class="footer-container">
             <p>&copy; <span id="currentYear"></span> Sinclair Anusiem. All Rights Reserved.</p>
             <div class="social-links">
-                <a href="https://x.com/yourhandle" target="_blank">
+                <a href="https://x.com/chidu_hundred" target="_blank">
                     <i class="bi bi-twitter-x"></i>
                 </a>
-                <a href="https://github.com/yourhandle" target="_blank">
+                <a href="https://github.com/chidu100" target="_blank">
                     <i class="bi bi-github"></i>
                 </a>
-                <a href="https://linkedin.com/in/yourhandle" target="_blank">
+                <a href="https://linkedin.com/in/sinclair-anusiem" target="_blank">
                     <i class="bi bi-linkedin"></i>
                 </a>
-                <a href="https://instagram.com/yourhandle" target="_blank">
+                <a href="https://instagram.com/chidu_hundreds" target="_blank">
                     <i class="bi bi-instagram"></i>
                 </a>
             </div>
@@ -482,7 +486,7 @@
     <!-- Form Submission Script -->
     <script type="text/javascript">
         document.getElementById('contactForm').addEventListener('submit', function (event) {
-            event.preventDefault(); // Prevent default form submission
+            event.preventDefault(); 
 
             const templateParams = {
                 firstName: document.getElementById('inputFirstName').value,
@@ -498,11 +502,11 @@
             emailjs.send('service_hil9ynh', 'template_lnaf2ug', templateParams)
                 .then(function (response) {
                     console.log('SUCCESS!', response);
-                    document.getElementById('successMessage').style.display = "block"; // Show success message
-                    document.getElementById('contactForm').reset(); // Reset form fields
+                    document.getElementById('successMessage').style.display = "block"; 
+                    document.getElementById('contactForm').reset(); 
                 }, function (error) {
                     console.log('FAILED...', error);
-                    document.getElementById('errorMessage').style.display = "block"; // Show error message
+                    document.getElementById('errorMessage').style.display = "block"; 
                 });
         });
     </script>
