@@ -116,6 +116,8 @@ The Skills Section is a dedicated part of the portfolio that showcases the techn
 
 - ***Animated Skill Bars***: Skill bars visually represent proficiency in each technology with different colors.
 
+---
+
 ## vi. Contact Section
 
 The Contact Section is a responsive and visually appealing section that allows users to get in touch. It includes a call-to-action (CTA) area highlighting the value proposition and a contact form for easy communication. The form is integrated with EmailJS for seamless email submissions.
@@ -129,6 +131,8 @@ The Contact Section is a responsive and visually appealing section that allows u
 - ***Success & Error Messages***: Provides immediate feedback on form submission status.
 - ***Smooth Animations & Transitions***: Enhances user experience with hover and focus effects.
 
+---
+
 ## vii. Resume Section/Download Button
 
 This section contains three buttons for users to view or download the resume:
@@ -136,3 +140,5 @@ This section contains three buttons for users to view or download the resume:
 - ***Main Button***: This button allows users to view or download the resume directly from the page.
 - ***Extra Button***: This button is displayed in the navbar on larger screens, providing an alternative way to access the resume.
 - ***Hidden Button (Mobile View)***: This button is hidden by default using CSS, but it becomes visible in the mobile view navbar to ensure a user-friendly experience for mobile users.
+
+---
