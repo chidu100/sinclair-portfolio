@@ -577,8 +577,8 @@ body {
     .border-animation {
         width: 3rem;
         height: 3rem;
-        top: 53.9%;
-        left: 41.7%;
+        top: 53%;
+        left: 41%;
         transform: translate(-50%, -50%);
     }
 }
