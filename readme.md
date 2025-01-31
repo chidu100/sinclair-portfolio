@@ -2,6 +2,10 @@
 
 This is the README for my personal portfolio website, outlining the structure and design.
 
+## 🚀 See It Live  
+If you want to see how my portfolio looks, check it out here: **[Live Portfolio](YOUR_PORTFOLIO_LINK_HERE)**  
+
+
 ## 1. Header/Navigation
 
 ## 2. Hero Section
@@ -142,3 +146,15 @@ This section contains three buttons for users to view or download the resume:
 - ***Hidden Button (Mobile View)***: This button is hidden by default using CSS, but it becomes visible in the mobile view navbar to ensure a user-friendly experience for mobile users.
 
 ---
+
+## viii. Footer
+
+The Footer Section is a sleek and responsive component that provides copyright information and social media links. It adapts to different screen sizes while maintaining a clean and modern design.
+
+### Features
+- ***Dynamic Year Update***: Automatically updates the copyright year using JavaScript.
+- ***Responsive Layout***: Adjusts for different screen sizes with a flexible design.
+- ***Dark & Light Mode Support***: Adapts based on the global theme settings.
+- ***Social Media Links***: Quick access to LinkedIn, GitHub, Twitter (X), and Instagram.
+- ***Smooth Hover Effects***: Social icons change color on hover for better interaction.
+----------------------------------------------------------------
