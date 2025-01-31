@@ -39,13 +39,10 @@ document.querySelectorAll(".nav-link").forEach((n) =>
 // glight
 document.addEventListener('DOMContentLoaded', () => {
   const lightbox = GLightbox({
-      selector: '.glightbox', // Ensure this matches your HTML class or ID for the clickable element.
-      touchNavigation: true,
-      href: 'https://www.youtube.com/watch?v=nDLb8_wgX50',
-      type: 'video',
-      source: 'youtube', // Options are 'vimeo', 'youtube', or 'local'
-      width: 900,
-      autoplayVideos: true,
+    selector: '.glightbox',
+    touchNavigation: true,
+    autoplayVideos: true,
+    width: '900px',
   });
 });
 
