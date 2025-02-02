@@ -2,7 +2,7 @@
 const toggleBtns = document.querySelectorAll(".theme-toggle");
 const body = document.body;
 
-let theme = localStorage.getItem("theme") || "light";
+let theme = localStorage.getItem("theme") || "dark";
 body.setAttribute("data-theme", theme);
 
 toggleBtns.forEach((btn) => {
