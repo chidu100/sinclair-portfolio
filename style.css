@@ -320,6 +320,19 @@ body {
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
     color: #fff;
     position: relative;
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slideInLeft 1s ease-out forwards;
+}
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .hero-content h1 {
@@ -390,6 +403,20 @@ body {
 .hero-image-container {
     position: relative;
     overflow: hidden;
+    opacity: 0;
+    transform: translateX(100%);
+    animation: slideInRight 1s ease-out forwards;
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .hero-image {
@@ -570,81 +597,6 @@ body {
         height: 3.5rem;
     }
 }
-
-/* .border-animation {
-    position: absolute;
-    top: 50%;
-    left: 36%;
-    width: 6rem;
-    height: 6rem;
-    border: 0.55rem solid #fff;
-    border-radius: 50%;
-    animation: pulse-border 1.5s linear infinite;
-}
-
-@keyframes pulse-border {
-    0% {
-        transform: scale(1);
-        opacity: 1;
-    }
-
-    100% {
-        transform: scale(1.5);
-        opacity: 0;
-    }
-}
-
-.border-animation--border-1 {
-    animation-delay: 1s;
-}
-
-.border-animation--border-2 {
-    animation-delay: 1.5s;
-}
-
-@media (max-width: 1025px) {
-    .video-box a span i {
-        font-size: 2rem;
-    }
-
-    .border-animation {
-        width: 3.4rem;
-        height: 3rem;
-        top: 50%;
-        left: 37%;
-    }
-}
-
-@media (max-width: 768px) {
-    .video-box a span i {
-        font-size: 1.8rem;
-        padding: 6px 18px;
-    }
-
-    .border-animation {
-        width: 3rem;
-        height: 3rem;
-        top: 53%;
-        left: 41%;
-        transform: translate(-50%, -50%);
-    }
-}
-
-@media (max-width: 300px) {
-    .video-box a span i {
-        font-size: 1.8rem;
-        padding: 6px 18px;
-    }
-
-    .border-animation {
-        width: 3rem;
-        height: 3rem;
-        top: 50%;
-        left: 38%;
-        transform: translate(-50%, -50%);
-    }
-} */
-
 
 /* About Me Section Styles */
 .about-me {
@@ -1212,7 +1164,6 @@ body {
 [data-theme="dark"] .skill-name {
     color: #fff;
 }
-
 
 /* Responsive Styling for Skills Section */
 @media (max-width: 1025px) {
