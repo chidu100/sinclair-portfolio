@@ -3,7 +3,7 @@
 This is the README for my personal portfolio website, outlining the structure and design.
 
 ## 🚀 See It Live  
-If you want to see how my portfolio looks, check it out here: **[Live Portfolio]([https://sinclairanusiem.netlify.app/])**  
+If you want to see how my portfolio looks, check it out here: **[Live Portfolio]([(https://sinclairanusiem.netlify.app/)])**  
 
 
 ## 1. Header/Navigation
